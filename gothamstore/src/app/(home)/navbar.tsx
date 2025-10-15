@@ -4,7 +4,7 @@ import { Poppins } from "next/font/google";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { usePathname } from "next/navigation";
-import NavbarSidebar from "./navbar-sidebar";
+import {NavbarSidebar} from "./navbar-sidebar";
 import { useState } from "react";
 import { MenuIcon } from "lucide-react";
 const poppins = Poppins({
@@ -68,7 +68,7 @@ export const Navbar = () => {
 
 
     <div className="flex lg:hidden justify-center items-center">
-        <Button variant="ghost"className="size-12 border-transparent bg-white" onClick={() => setIsSidebarOpen(true)}>
+        <Button variant="ghost" className="size-12 border-transparent bg-white" onClick={() => setIsSidebarOpen(true)}>
             <MenuIcon/>
         </Button>
     </div>
