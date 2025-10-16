@@ -7,7 +7,7 @@ interface NavbarItem{
     href: string;
     children: React.ReactNode;
 }
-
+//aman
 interface Props{
     items: NavbarItem[];
     open: boolean;
