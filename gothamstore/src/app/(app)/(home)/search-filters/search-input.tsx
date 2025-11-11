@@ -8,3 +8,4 @@ const SearchInput = () => {
 }
 
 export default SearchInput
+///# sourceMappingURL=search-input.tsx.map
